@@ -1,0 +1,68 @@
+h1 {
+  color: rgb(102, 102, 173)
+}
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: "Monaco", monospace ;
+  letter-spacing: -1px ;
+}
+
+h2 {
+  color: rgb(125, 190, 175)
+}
+
+.container {
+  width: 1000px;
+  margin: 50px ;
+  display: inline-block;
+  text-align: center
+}
+.section {
+  border: 2px;
+  background-color: rgba(172, 194, 208, 0.1);
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px
+}
+
+.btn-blue {
+  border: 2px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(99, 172, 245);
+  text-decoration: none
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+a i {
+  font-size: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
